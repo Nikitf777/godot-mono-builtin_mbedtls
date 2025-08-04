@@ -23,6 +23,7 @@ sha256sums=('SKIP')
 
 pkgver() {
     cd "$srcdir/godot"
+    git checkout tags/4.4.1-stable
     git describe --long --tags --abbrev=7 | sed 's/\([^-]*-g\)/r\1/;s/-/./g' | sed 's/.stable//'
 }
 

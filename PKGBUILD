@@ -56,7 +56,7 @@ build() {
     builtin_libvorbis=no \
     builtin_libwebp=no \
     builtin_wslay=yes \
-    builtin_mbedtls=no \
+    builtin_mbedtls=yes \
     builtin_miniupnpc=yes \
     builtin_pcre2=no \
     builtin_pcre2_with_jit=no \

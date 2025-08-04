@@ -15,7 +15,7 @@ license=(MIT)
 depends=(embree freetype2 graphite harfbuzz harfbuzz-icu libglvnd libspeechd libsquish
          libtheora libvorbis libwebp libwslay libxcursor libxi libxinerama libxrandr
          mbedtls miniupnpc pcre2 dotnet-sdk hicolor-icon-theme bash)
-makedepends=(alsa-lib pulseaudio scons yasm xorg-server-xvfb nuget python git rsync gzip)
+makedepends=(alsa-lib scons yasm xorg-server-xvfb nuget python git rsync gzip)
 provides=(godot-mono)
 conflicts=(godot-mono)
 source=("git+https://github.com/godotengine/godot.git")
@@ -70,7 +70,6 @@ build() {
     colored=yes \
     platform=linuxbsd \
     production=yes \
-    pulseaudio=yes \
     system_certs_path=/etc/ssl/certs/ca-certificates.crt \
     target=editor \
     use_llvm=no \

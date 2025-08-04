@@ -6,7 +6,7 @@
 
 _pkgname=godot-mono
 pkgname=godot-mono-git
-pkgver=4.2.r6531.ga48b99a
+pkgver=4.4.1.r0.g49a5bc7
 pkgrel=1
 pkgdesc="An advanced, feature packed, multi-platform 2D and 3D game engine built properly"
 arch=(x86_64 i686)
